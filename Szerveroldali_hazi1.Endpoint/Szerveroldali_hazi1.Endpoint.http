@@ -1,0 +1,6 @@
+@Szerveroldali_hazi1.Endpoint_HostAddress = http://localhost:5248
+
+GET {{Szerveroldali_hazi1.Endpoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
