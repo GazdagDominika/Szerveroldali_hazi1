@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Szerveroldali_hazi1.Entities;
+using Szerveroldali_hazi1.Entities.Entity;
 
 namespace Szerveroldali_hazi1.Data
 {
