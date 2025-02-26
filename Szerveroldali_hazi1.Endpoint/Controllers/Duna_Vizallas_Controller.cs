@@ -22,7 +22,7 @@ namespace Szerveroldali_hazi1.Endpoint.Controllers
         {
             return ctx.Vizallas.Select(t => new Duna_Vizallas_View_Dto
             {
-          
+                Month = t.Date.ToString("yyyy.MM"),
                 average_value = t.Value
             }) ; 
         }

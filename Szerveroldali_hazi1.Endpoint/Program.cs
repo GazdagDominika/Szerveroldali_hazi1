@@ -19,7 +19,7 @@ namespace Szerveroldali_hazi1.Endpoint
 
             builder.Services.AddDbContext<Duna_VizallasContext>(opt =>
             {
-                opt.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Duna_VizallasDb;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True");
+                opt.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Duna_VizallasDbX;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True");
 
             });
 
